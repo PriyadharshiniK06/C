@@ -9,10 +9,9 @@ int main()
 	scanf("%d",&range);	
 	for(n=1;n<=range;n++)
 	{
-		value+=value;
-		//c=c+value;
-    }
-    //c=c-1;
+		c=c+value;
+        }
+        c=c-1;
 	printf("%d\n",c);
 	return 0;
 }
